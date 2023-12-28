@@ -16,6 +16,7 @@ clean:
 install:
 	mkdir -p $(UCCDIR)
 	cp driver/ucc $(UCCDIR)
+	echo "driver copied"
 	cp ucl/ucl $(UCCDIR)
 	cp ucl/assert.o $(UCCDIR)
 	cp -r ucl/linux/include $(UCCDIR)
